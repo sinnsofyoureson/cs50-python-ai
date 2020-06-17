@@ -7,6 +7,7 @@ class Node():
     self.parent = parent
     self.action = action
 
+# Depth-first search algorithm
 class StackFrontier():
   def __init__(self):
     self.frontier = []
@@ -28,6 +29,7 @@ class StackFrontier():
       self.frontier = self.frontier[:-1]
       return node
 
+# Breadth-first search algorithm
 class QueueFrontier(StackFrontier):
   def remove(self):
     if self.empty():
