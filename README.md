@@ -9,8 +9,9 @@
   ```
 
   To switch between algorithms use:
-    - StackFrontier for Depth-first search algorithm;
-    - QueueFrontier for Breadth-first search algorithm
+  * StackFrontier (for Depth-first search algorithm);
+  * QueueFrontier (for Breadth-first search algorithm);
+  
   as a frontier on line 131
   ```
     frontier = StackFrontier()
